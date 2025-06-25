@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Samira</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>SAMIRA ORTIZ</h1>
+            <h2>Estudinate Universitaria -        Facultad de Ciencias y Artes de la Comunicación - PUCP</h2>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Samira Ortiz.</span> Soy estudiante de Comunicación Audiovisual en la Pontificia Universidad Católica del Perú, apasionada por contar historias a través de la imagen y el sonido. Me interesa el cine, la dirección, la edición y la creación de contenido visual con enfoque social y creativo. Busco explorar nuevas narrativas que conecten con las personas y generen reflexión.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            10-01-2004
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            966 956 976
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            betsabethortiz4@gmail.com
+                        </li>
+                        <li>
+                            <strong>Instagram</strong>
+                            ortizbetsabeth
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Urb. Los Jardines de Shangrila Mz. F1 Lt.16
+                        </li>
+                        <li>
+                            <strong>Ciclo</strong>
+                            <span>Quinto ciclo</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span> DANZA </span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mountain"></i>
+                            <span>CULTURA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Manejo de cámaras y equipos de grabación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Edición de video y postproducción</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño sonoro y edición de audio</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Guion y estructura narrativa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Motion graphics y efectos visuales</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educación Inicial</h4>
+                        <span class="casa">I.E.P. Jesús Obrero</span>
+                        <span class="fecha">2007 - 2009</span>
+                        <p>Estudié Educación Inicial con enfoque en el desarrollo emocional, cognitivo y social de los niños y niñas en sus primeros años. Me formé en la creación de entornos pedagógicos creativos, seguros y afectivos, valorando el juego como eje fundamental del aprendizaje temprano.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Primaria</h4>
+                        <span class="casa">I.E.P. Divino Maestro de Pro</span>
+                        <span class="fecha">2010 - 2015</span>
+                        <p>Estudié Educación Primaria con el objetivo de contribuir al desarrollo integral de los niños en sus primeros años escolares. Me especialicé en estrategias didácticas que fomentan el pensamiento crítico, la creatividad y los valores, promoviendo un aprendizaje significativo y participativo en el aula.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Secundaria</h4>
+                        <span class="casa">I.E.P. Divino Maestro de Pro</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Estudié Educación Secundaria con enfoque en la formación integral de adolescentes, combinando el desarrollo académico con el acompañamiento personal. Me preparé para diseñar estrategias pedagógicas dinámicas que promuevan la participación, el pensamiento crítico y el trabajo en equipo. Además, me capacité en técnicas de enseñanza orientadas a la preparación para el ingreso a la universidad, brindando herramientas que fortalecen el rendimiento académico y la toma de decisiones vocacionales.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Secretaria</h4>
+                        <span class="casa">Academia San Marci</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Me desempeñé como secretaria en una academia educativa, encargándome de la atención al público, gestión de matrículas, organización de documentos administrativos y coordinación de horarios con docentes y estudiantes. Brindé apoyo en la comunicación interna y externa, manteniendo un trato cordial, eficiente y organizado en el día a día.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Danzante</h4>
+                        <span class="casa">Agrupación Dinastia Wanka</span>
+                        <span class="fecha">2024 - 2025</span>
+                        <p>Fui danzante en la agrupación Dinastía Wanka, donde participé activamente en concursos y presentaciones culturales en Huancayo. A través de la danza tradicional wanka, contribuí a la preservación y difusión del patrimonio cultural andino, fortaleciendo el trabajo en equipo, la disciplina artística y el compromiso con la identidad regional.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Fotografa</h4>
+                        <span class="casa">Trabajo propio</span>
+                        <span class="fecha">2025</span>
+                        <p>Trabajé de manera temporal como fotógrafa de la agrupación de Huaylas Juventud Incontrastable, documentando presentaciones, ensayos y eventos culturales. Mi labor se centró en capturar la energía, el ritmo y la identidad de la danza a través de un enfoque visual expresivo, contribuyendo a la difusión del arte tradicional en plataformas digitales y redes sociales.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Agrupación Folclorica</h3>
+                        <p>Juventud Incontrastable</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Agrupación Folclorica</h3>
+                        <p>Calentamiento</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p9 (1).png" alt="">
+                    <div class="overlay">
+                        <h3>Huaridanza</h3>
+                        <p>Cajero</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>Dinastia Wanka</h3>
+                        <p>Pareja Wanka</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p7.jpg.JPG" alt="">
+                    <div class="overlay">
+                        <h3>Huaridanza</h3>
+                        <p>Herencia 1</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p8. jpg.JPG" alt="">
+                    <div class="overlay">
+                        <h3>Huaridanza</h3>
+                        <p>Herencia 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
